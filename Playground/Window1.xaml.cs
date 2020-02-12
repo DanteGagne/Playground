@@ -35,7 +35,7 @@ namespace Playground
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Add new user")
+            MessageBox.Show("Add new user");
         }
     }
 }
