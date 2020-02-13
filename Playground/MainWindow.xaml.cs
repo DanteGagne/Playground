@@ -34,6 +34,9 @@ namespace Playground // TODO: Do the thing
             // Hello World
             string MyString = string.Concat("This is a click handler " + j.ToString());
             MessageBox.Show(MyString);
+
+            Class1 c1 = new Class1();
+            c1.Junk();
         }
     }
 }
