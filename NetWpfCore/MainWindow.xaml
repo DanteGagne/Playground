@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+		<StackPanel Width="400" Orientation="Horizontal" Height="29" >
+			<Button Content="Bad Tooltip" Margin="5,0" Height="25" ToolTip="This is a somewhat longer tooltip that has a bit more information than what Magnifier will easily let you see."/>
+			<Border BorderThickness="2" BorderBrush="Blue" Margin="5,0">
+				<Button Content="Focus" Height="25"/>
+			</Border>
+			<Button Content="No Focus" Margin="5,0" Height="25"/>
+		</StackPanel>
     </Grid>
 </Window>
