@@ -11,6 +11,9 @@
 	"This is a  of text " & _
 	"This is a  of text " & _
 	"This is a piece of text " & _
+	"This is a unit of text " & _
+	"This is a unit of text " & _
+	"This is a pieceunit of text " & _
 	"This is a piece of text " & _
 	"This is a parsel of text " & _
 	"This is a piece of text " & _
