@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "Playground.sln",
+    "projects": [
+      "NetCoreConsolePlayground\\NetCoreConsolePlayground.csproj"
+    ]
+  }
+}

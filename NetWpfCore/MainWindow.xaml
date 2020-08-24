@@ -7,10 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+		<StackPanel Height="Auto" Margin="20" Width="50">
+			<TextBlock FontSize="8pt"  Foreground="#ff686868" Background="#ffE6E6fa" Text="This has CCR of 4.527:1"/>
+			<TextBlock FontSize="8pt"  Foreground="#ff808080" Background="#ffE6E6fa" Text="This has CCR of 3.209:1"/>
+			<TextBlock FontSize="8pt"  Foreground="#ff686868" Background="#ffE4E3F1" Text=" 3:02 PM"/>
+			<Image Source="302pm.jpg" Width="52" Margin="-4,0,0,0"/>
+
+		</StackPanel>
 		<StackPanel Width="400" Orientation="Horizontal" Height="29" >
 			<Button Content="Bad Tooltip" Margin="5,0" Height="25" ToolTip="This is a somewhat longer tooltip that has a bit more information than what Magnifier will easily let you see."/>
 			<Border BorderThickness="2" BorderBrush="Blue" Margin="5,0">
-				<Button Content="Focus" Height="25"/>
+				<Button Content="Focus" Height="25" Click="Button_Click"/>
 			</Border>
 			<Button Content="No Focus" Margin="5,0" Height="25"/>
 		</StackPanel>

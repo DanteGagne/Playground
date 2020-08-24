@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace NetCoreConsolePlayground
 {
-	class Program
+	class ThingsForSearch
 	{
 		// This is a comment
 		// This is a comment
@@ -13,11 +15,5 @@ namespace NetCoreConsolePlayground
 		// This is a comment
 		// This is a comment
 
-
-		static/* */void Main(string[] args)
-		{
-			Console.WriteLine("Hello World!");
-			Console.WriteLine("Nope, no world.");
-		}
 	}
 }

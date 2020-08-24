@@ -64,6 +64,7 @@ namespace Playground.Properties
             }
             set
             {
+                { }
                 resourceCulture = value;
             }
         }

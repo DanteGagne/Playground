@@ -1,0 +1,12 @@
+﻿use
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "
+	sSQL = sSQL & "This is a piece of text "

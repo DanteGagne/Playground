@@ -20,9 +20,18 @@ namespace NetWpfCore
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		// INFO: This is a CHICKEN
+		// info: This is a chicken
+		// iNfO: This is a cHiCkEn
+		// Info: This is a Chicken
 		public MainWindow()
 		{
 			InitializeComponent();
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			MessageBox.Show("This is a test");
 		}
 	}
 }
