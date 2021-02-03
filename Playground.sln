@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Pl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetWpfCore", "NetWpfCore\NetWpfCore.csproj", "{673EFF45-51F1-4FBE-A87C-99C373CADC3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreConsolePlayground", "NetCoreConsolePlayground\NetCoreConsolePlayground.csproj", "{27E1E11F-2E34-43D0-A357-7C36288D8EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreConsolePlayground", "NetCoreConsolePlayground\NetCoreConsolePlayground.csproj", "{27E1E11F-2E34-43D0-A357-7C36288D8EEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39BCEF08-CEE0-4E2B-B390-43F7DFBF8B89}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
