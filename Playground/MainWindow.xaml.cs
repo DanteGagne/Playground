@@ -5,27 +5,26 @@
 #endregion
 
 
+using System;
 using System.Windows;
 
 // This is a file header line 1
 // I don't believe in weaponized turkeys
 // This is a file header line 3
 
-namespace Playground // TODO: Do the thing
-    // TODO: Do the other thing
-    // TODO: Don't do the thing
+namespace Playground // TODO: Do the this is a multiedit
+    // TODO: Do the other this is a multiedit
+    // TODO: Don't do the this is a multiedit
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml Hello
+    /// Interaction logic for MainWindow.xaml Hello // TODO: Hello
     /// World
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
-            // Hello
-            this.InitializeComponent();
-            // World
+            InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
